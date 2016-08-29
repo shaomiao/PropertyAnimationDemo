@@ -14,11 +14,13 @@
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:text="Hello World!" />-->
+
+    <!--android:onClick="onClickAnimation"-->
     <ImageView
         android:id="@+id/image"
         android:src="@mipmap/aaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickAnimation"
+
         />
 </LinearLayout>
