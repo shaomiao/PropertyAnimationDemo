@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="person_title">余额 CNY</string>
+    <string name="person_num">0.00</string>
+    <string name="person_red">红包 X6</string>
+    <string name="person_barcode">2016 0301 0000 111</string>
 </resources>
