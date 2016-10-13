@@ -24,7 +24,7 @@ public class TestAcitvity extends Activity implements View.OnClickListener {
         //String data= i.getStringExtra("data");
         Bundle bundle=i.getBundleExtra("data");
         TextView textView= (TextView) findViewById(R.id.textView);
-        textView.setText(String.format("name%s,age%d",bundle.getString("name"),bundle.getInt("age")));
+        //textView.setText(String.format("name%s,age%d",bundle.getString("name"),bundle.getInt("age")));
 
 
         //gin_div.setOnClickListener(this);
