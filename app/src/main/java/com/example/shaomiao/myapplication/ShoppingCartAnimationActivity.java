@@ -17,13 +17,13 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
+public class ShoppingCartAnimationActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView imageView;
     private int screenWidth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_shop_cart_animation);
         findViewById(R.id.btn).setOnClickListener(this);
         imageView = (ImageView) findViewById(R.id.image);
         rl = (RelativeLayout) findViewById(R.id.rl);
@@ -188,7 +188,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn:
-                addAnimal(Main2Activity.this,imageView,0,1000,1080);
+                addAnimal(ShoppingCartAnimationActivity.this,imageView,0,1000,1080);
                 break;
         }
     }
